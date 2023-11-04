@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+
+header div {
+    display: inline-block;
+    width: 45%;
+}
+
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+main {
+    width: 70%;
+    border: 10px #3e66b296;
+    border-style: double;
+    padding: 1em 2em;
+    background: #ff000040;
+    margin: 2em auto;
+    box-sizing: border-box;
+}
+
+main section {
+    width: 45%;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 1em;
+    margin-inline: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
+p span {
+    color: red;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+header, footer {
+    background: black;
+    color: white;
+    padding: 1em;
+}
